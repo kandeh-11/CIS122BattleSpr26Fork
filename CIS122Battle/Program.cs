@@ -19,7 +19,7 @@
         arena.RegisterGladiator(bob3, secret);
 
         secret = new Random().Next(1000, 9999);
-        var bob4 = new GlitterWarrior4(secret);
+        var bob4 = new TacticalFighter(secret);
         arena.RegisterGladiator(bob4, secret);
 
         Console.WriteLine("Ready to Fight!");
